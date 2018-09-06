@@ -1,2 +1,2 @@
 # Simple-JS-Project
-Images gallery, web skin function, scroll function, localstorage, jQuery UI plugins, clock (Moment.JS), contact form and validation.
+Fake blog(Posts defined and showing from Json), images gallery (jQuery plugin), web skin function (you can select a theme), scrollup function, clock (Moment.JS, used in clock section and the published posts day), fake contact form and validation, fake login, only save the credentials in localstorage, the slected theme is saved in localstorage.
