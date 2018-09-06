@@ -15,11 +15,11 @@ In this repo you can find:
 4.Contact
     -Fake contact form (only validations).
 
-Other functions
+**Other functions**
     -Web skin, you can change the theme colors.
     -Scrollup.
     -Fake login, you can login without register, because only save your information in localstorage.
 
-Notes
+**Notes**
     NOT RESPONSIVE (I'm goint to make the responsive styles).
     I'll implement [Particles.js](https://vincentgarreau.com/particles.js/) soon.
