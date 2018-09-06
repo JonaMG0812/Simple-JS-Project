@@ -2,7 +2,7 @@
 
 In this repo you can find: 
 
-**1.Home:**
+* **1.Home:**
     * Gallery images (plugin jQuery).
     * Fake post (defined and loaded from Json, you can wath the posted day with [MomentJS](https://momentjs.com/)).
 
