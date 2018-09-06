@@ -1,52 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>Project JS</title>
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link id="theme" rel="stylesheet" type="text/css" href="css/gray.css" />
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- Slider --> 
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+		<!-- Moment -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/locale/es.js"></script>
+		<!-- My Scripts -->
+		<script type="text/javascript" src="js/main.js"></script>
+	</head>
+	<body>
+		<div id="selector-theme">
+			<div id="to-gray"></div>
+			<div id="to-purple"></div>
+			<div id="to-blue"></div>
+		</div>
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    
-    <title>Project JS</title>
-</head>
-<body>
-    <section id="global">
-        <!--Header-->
-        <header>
-            <div id="logo">
-                <h1>Project JS</h1>
-            </div>
-            <div class="clearfix"></div>
-            <nav>
-                <ul class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Clock JS</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <!--Slider-->
-        <div id="slider">
+		<section id="global">
+			<!-- Header -->
+			<header>
+				<div id="logo">
+					<h1>Project JS</h1>
+				</div>
+				<div class="clearfix"></div>
 
-        </div>
-        <!--Content-->
-        <section id="content">
-            <div id="post">
-                <article class="post">
-                    <h3>Article Title</h3>
-                    <span>Date</span>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </article>
-            </div>
-            <aside id="sidebar">
+				<nav id="menu">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="clock.html">Clock Js</a></li>
+						<li><a href="about.html">About me</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
 
-            </aside>
-        </section>
-    </section>
-    <footer>
-        Project JS
-    </footer>
-    
-</body>
+			<!-- Slider -->
+			<div id="slider">
+				<div class="gallery">
+				  <div><img src="img/one.jpg" title="Image one"></div>
+				  <div><img src="img/two.jpg" title="Image two"></div>
+				  <div><img src="img/three.jpg" title="Image three"></div>
+				</div>
+			</div>
+
+			<!-- Content -->
+			<section id="content">
+				<div id="posts">
+					<!-- Loading posts from json -->
+				</div>
+				<aside id="sidebar">
+					<div id="about">
+						<img src="img/me.png" alt="">
+						<h4><span>Who I am?</span></h4>
+						<p>My name is Jonathan, I'm 25 and I'm Computer Systems Engineer.</p>
+					</div>
+
+					<div id="login">
+						<h4><span>Login</span></h4>
+						<form>
+							<label for="name">Name</label><br/>
+							<input type="text" name="name" id="form_name"/><br/>
+
+							<label for="email">Email</label><br/>
+							<input type="text" name="email" />
+
+							<label for="password">Password</label>
+							<input type="password" name="password" />
+
+							<input type="submit" value="Log in" />
+						</form>
+					</div>
+				</aside>
+				<div class="clearfix"></div>
+			</section>
+		</section>
+
+		<footer>
+			PROJECT JS
+			<a href="#" class="scrollup">Scroll up</a>
+		</footer>
+	</body>
 </html>
