@@ -1,0 +1,16 @@
+body{
+	background: #3a5079;
+	background-attachment: fixed;
+}
+
+#logo{
+	background: #3a5079;
+}
+
+#menu ul li:hover{
+	background: #3a5079;
+}
+
+.button-more{
+	background: #3a5079;
+}
