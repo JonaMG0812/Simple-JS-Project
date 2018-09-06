@@ -125,6 +125,10 @@ h2{
 	height: 50%;
 }
 
+.radius{
+	border-radius: 50%;
+}
+
 #sidebar p{
 	font-size: 15px;
 	text-align: justify;
