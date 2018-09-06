@@ -21,5 +21,5 @@ Other functions
     -Fake login, you can login without register, because only save your information in localstorage.
 
 Notes
-    -NOT RESPONSIVE (I'm goint to make the responsive styles).
-    -I'll implement [Particles.js](https://vincentgarreau.com/particles.js/) soon.
+    NOT RESPONSIVE (I'm goint to make the responsive styles).
+    I'll implement [Particles.js](https://vincentgarreau.com/particles.js/) soon.
